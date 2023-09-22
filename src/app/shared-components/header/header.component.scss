@@ -1,0 +1,22 @@
+//SINTAXE DO SCSS É DIFERENTE! PODEMOS ANINHAR SELETORES, por exemplo ao criar ao selecionar a classe app-header e envolver toda a estilização subsequente dentro dela, eu estou dizendo que todos esses seletor precisam ser filhos de um app-header
+
+.app-header {
+
+  .mat-toolbar {
+    background-color: black;
+    color: white;
+    padding: 0 256px;
+  }
+
+  .mat-mdc-outlined-button:not(:disabled) {
+    border-color: white;
+  }
+
+  button {
+    margin: 0 16px;
+  }
+
+  .spacer {
+    flex: 1 1 auto;
+  }
+}
